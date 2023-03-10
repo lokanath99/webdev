@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,h4,h5{
+    color: blue;
+    background-color: cadetblue ;
+}
+
+/* combination selectors
+.heading-one span{
+    color: red;
+    text-decoration: underline;
+}
+
+.heading-one>span{
+
+}
+
+h2+span{
+
+}
+
+h2~span{
+
+} */
+
+/* .heading-one{
+    color: brown;
+    background-color: aquamarine;
+}
+
+#h-one{
+    color: black;
+    background-color: lightblue;
+} */
+
