@@ -1,9 +1,41 @@
-h1,
+h1{
+/*     
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: blue; */
+
+    border: blue dotted 0.5rem;
+    padding: 5rem;
+    margin: 5rem;
+}
+
+h2{
+    border: blue dotted 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: large;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow:12px 12px 2px black;
+}
+
+
+
+/* h1,
 h2,
 h3,h4,h5{
     color: blue;
     background-color: cadetblue ;
-}
+} */
+
+/* body{
+    /* background: linear-gradient(to bottom left, violet, indigo, blue, green, orange, red) */
+    /* background-image: url("./laptop-gf19b3cc32_1280.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */ 
+    /* background: linear-gradient(to bottom left, violet, indigo, blue, green, orange, red) no-repeat fixed center; */
 
 
 
@@ -33,3 +65,44 @@ h2~span{
     background-color: lightblue;
 } */
 
+/* pseudo selectors */
+
+a{
+    color: rgb(200, 0, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: black;
+}
+
+button{
+    background-color: rgb(244, 42, 42);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(255, 74, 74);
+}
+
+button:active{
+    background-color: rgb(255, 127, 127);
+}
+
+h1::first-letter{
+    color: red;
+}

@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(229, 178, 255);
+}
+
+.navbar:hover{
+    background-color: rgb(181, 102, 255);
+    opacity: 0.75;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+    color: blue;
+}
+
+.nav-link{
+    transition: transform 1s;
+}
+
+.nav-link:hover{
+    transform: scale(1.25);
+}
+
+.navbar-brand img{
+    transition: all 3s;
+}
+
+.navbar-brand img:hover{
+    transform: rotate(1turn);
+}
